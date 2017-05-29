@@ -9,7 +9,7 @@ typedef struct Snode{
 } *Node;
 
 typedef struct list_t{
-    int iterator;
+    Node iterator;
     int size;
     Node first;
     CopyListElement copy;
@@ -55,4 +55,41 @@ ListResult listInsertFirst(List list, ListElement element){
     tmp->next=list->first;
     list->first=tmp;
     return LIST_SUCCESS;
+}
+
+/*List listCopy(List list){
+    if(list==NULL)
+        return NULL;
+    List new_copy=listCreate(list->copy,list->free);
+
+}*/
+
+int listGetSize(List list){
+    return (list==NULL) ? -1 : list->size;
+}
+
+ListElement listGetFirst(List list){
+    if(list==NULL)
+        return NULL;
+    list->iterator=list->first;
+    return list->first->data;
+}
+
+ListElement listGetNext(List list){
+    if(list==NULL)
+        return NULL;
+    if (list->iterator==NULL)  //if already pointing to last element
+        return NULL;
+    list->iterator=list->iterator->next;
+    if (list->iterator==NULL)   //if the next element is NULL
+        return NULL;
+    return list->iterator->data;
+}
+
+ListElement listGetCurrent(List list){
+    if(list==NULL)
+        return NULL;
+    if(list->iterator==NULL)
+        return NULL;
+    return (list->iterator->data);
 }
