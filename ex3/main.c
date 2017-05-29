@@ -14,6 +14,7 @@ int main() {
     scanf(" %s ",str);
     element=str;
     listInsertFirst(new_list,element);
+    free(str);
     listDestroy(new_list);
     return 0;
 }
