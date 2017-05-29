@@ -13,6 +13,8 @@ assert.h
 -
 list_mtm1.h
 C:/Users/liav/CLionProjects/ex3/list_mtm1.h
+stdio.h
+-
 
 C:/Users/liav/CLionProjects/ex3/list_mtm1.h
 stdbool.h
@@ -21,6 +23,12 @@ stdbool.h
 C:/Users/liav/CLionProjects/ex3/main.c
 stdio.h
 -
+stdlib.h
+-
+assert.h
+-
 list_mtm1.h
 C:/Users/liav/CLionProjects/ex3/list_mtm1.h
+string.h
+-
 

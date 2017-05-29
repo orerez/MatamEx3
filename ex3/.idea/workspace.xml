@@ -26,18 +26,18 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="0">
               <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -45,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_mtm1.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_mtm1.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list_mtm1.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -60,12 +60,11 @@
       <file leaf-file-name="list_mtm1.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list_mtm1.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8404">
-              <caret line="382" column="42" lean-forward="false" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
+            <state relative-caret-position="484">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
               <folding>
                 <element signature="e#54#1872#0" expanded="false" />
                 <element signature="e#2009#2110#0" expanded="false" />
-                <element signature="e#2196#2811#0" expanded="false" />
                 <element signature="e#2975#3479#0" expanded="false" />
                 <element signature="e#3542#3701#0" expanded="false" />
                 <element signature="e#3732#4087#0" expanded="false" />
@@ -74,7 +73,6 @@
                 <element signature="e#5681#6475#0" expanded="false" />
                 <element signature="e#6514#6808#0" expanded="false" />
                 <element signature="e#6846#7099#0" expanded="false" />
-                <element signature="e#7140#7650#0" expanded="false" />
                 <element signature="e#7712#8218#0" expanded="false" />
                 <element signature="e#8279#8991#0" expanded="false" />
                 <element signature="e#9061#9774#0" expanded="false" />
@@ -96,14 +94,15 @@
       <find>ite</find>
       <find>filter</find>
       <find>compare</find>
+      <find>insert</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/list_mtm1.c" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
@@ -379,17 +378,20 @@
       <updated>1496000579866</updated>
       <workItem from="1496000581326" duration="7002000" />
       <workItem from="1496007610120" duration="14000" />
+      <workItem from="1496040593000" duration="4332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7016000" />
+    <option name="totallyTimeSpent" value="11348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17952523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -397,10 +399,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38130563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17952523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -438,7 +439,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/list_mtm1.c</url>
+          <line>42</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -464,11 +472,10 @@
     <entry file="file://$PROJECT_DIR$/list_mtm1.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8404">
-          <caret line="382" column="42" lean-forward="true" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
+          <caret line="382" column="42" lean-forward="false" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
           <folding>
             <element signature="e#54#1872#0" expanded="false" />
             <element signature="e#2009#2110#0" expanded="false" />
-            <element signature="e#2196#2811#0" expanded="false" />
             <element signature="e#2975#3479#0" expanded="false" />
             <element signature="e#3542#3701#0" expanded="false" />
             <element signature="e#3732#4087#0" expanded="false" />
@@ -477,7 +484,62 @@
             <element signature="e#5681#6475#0" expanded="false" />
             <element signature="e#6514#6808#0" expanded="false" />
             <element signature="e#6846#7099#0" expanded="false" />
-            <element signature="e#7140#7650#0" expanded="false" />
+            <element signature="e#7712#8218#0" expanded="false" />
+            <element signature="e#8279#8991#0" expanded="false" />
+            <element signature="e#9061#9774#0" expanded="false" />
+            <element signature="e#9843#10193#0" expanded="false" />
+            <element signature="e#10236#11170#0" expanded="false" />
+            <element signature="e#11240#12236#0" expanded="false" />
+            <element signature="e#12318#12574#0" expanded="false" />
+            <element signature="e#12609#12803#0" expanded="false" />
+            <element signature="e#12834#13470#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_mtm1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_mtm1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8404">
+          <caret line="382" column="42" lean-forward="true" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
+          <folding>
+            <element signature="e#54#1872#0" expanded="false" />
+            <element signature="e#2009#2110#0" expanded="false" />
+            <element signature="e#2975#3479#0" expanded="false" />
+            <element signature="e#3542#3701#0" expanded="false" />
+            <element signature="e#3732#4087#0" expanded="false" />
+            <element signature="e#5030#5426#0" expanded="false" />
+            <element signature="e#5454#5651#0" expanded="false" />
+            <element signature="e#5681#6475#0" expanded="false" />
+            <element signature="e#6514#6808#0" expanded="false" />
+            <element signature="e#6846#7099#0" expanded="false" />
             <element signature="e#7712#8218#0" expanded="false" />
             <element signature="e#8279#8991#0" expanded="false" />
             <element signature="e#9061#9774#0" expanded="false" />
@@ -512,30 +574,19 @@
     <entry file="file://$PROJECT_DIR$/list_mtm1.h.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="0">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list_mtm1.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8404">
-          <caret line="382" column="42" lean-forward="false" selection-start-line="382" selection-start-column="42" selection-end-line="382" selection-end-column="42" />
+        <state relative-caret-position="484">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding>
             <element signature="e#54#1872#0" expanded="false" />
             <element signature="e#2009#2110#0" expanded="false" />
-            <element signature="e#2196#2811#0" expanded="false" />
             <element signature="e#2975#3479#0" expanded="false" />
             <element signature="e#3542#3701#0" expanded="false" />
             <element signature="e#3732#4087#0" expanded="false" />
@@ -544,7 +595,6 @@
             <element signature="e#5681#6475#0" expanded="false" />
             <element signature="e#6514#6808#0" expanded="false" />
             <element signature="e#6846#7099#0" expanded="false" />
-            <element signature="e#7140#7650#0" expanded="false" />
             <element signature="e#7712#8218#0" expanded="false" />
             <element signature="e#8279#8991#0" expanded="false" />
             <element signature="e#9061#9774#0" expanded="false" />
@@ -560,10 +610,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list_mtm1.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="286">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

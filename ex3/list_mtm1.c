@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include "list_mtm1.h"
+#include <stdio.h>
 
 typedef struct Snode{
     ListElement data;
@@ -31,12 +32,27 @@ List listCreate(CopyListElement copyElement, FreeListElement freeElement){
 void listDestroy(List list){
     if(list==NULL)
         return;
-    Node tmp=list->first;
+    Node tmp;
     for(int i=0;i<list->size;i++)
     {
-        list->first=tmp->next;
-        list->free(tmp->data);
-        list->free(tmp);
-        tmp=list->first;
+        tmp=list->first->next;
+        list->free(list->first->data);
+        free(list->first);
+        list->first=tmp;
     }
+    free(list);
+}
+
+ListResult listInsertFirst(List list, ListElement element){
+    if(list==NULL)
+        return  LIST_NULL_ARGUMENT;
+    Node tmp = malloc(sizeof(*tmp));
+    assert(tmp!=NULL);
+    tmp->data=list->copy(element);
+    if(tmp->data==NULL)
+        return LIST_OUT_OF_MEMORY;
+    list->size++;
+    tmp->next=list->first;
+    list->first=tmp;
+    return LIST_SUCCESS;
 }
